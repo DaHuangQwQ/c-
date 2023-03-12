@@ -166,10 +166,12 @@
 		</Build>
 		<Unit filename="/Users/dahuang/CLionProjects/untitled/main.cpp">
 			<Option target="untitled"/>
-			<Option target="main"/>
 		</Unit>
 		<Unit filename="/Users/dahuang/CLionProjects/untitled/text.cpp">
 			<Option target="text"/>
+		</Unit>
+		<Unit filename="/Users/dahuang/CLionProjects/untitled/洛谷/main.cpp">
+			<Option target="main"/>
 		</Unit>
 		<Unit filename="/Users/dahuang/CLionProjects/untitled/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

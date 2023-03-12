@@ -161,7 +161,6 @@ main.o: main.cpp.o
 # target to build an object file
 main.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -170,7 +169,6 @@ main.i: main.cpp.i
 # target to preprocess a source file
 main.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -179,7 +177,6 @@ main.s: main.cpp.s
 # target to generate assembly for a file
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 text.o: text.cpp.o
@@ -206,6 +203,30 @@ text.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text.dir/build.make CMakeFiles/text.dir/text.cpp.s
 .PHONY : text.cpp.s
 
+洛谷/main.o: 洛谷/main.cpp.o
+.PHONY : 洛谷/main.o
+
+# target to build an object file
+洛谷/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/洛谷/main.cpp.o
+.PHONY : 洛谷/main.cpp.o
+
+洛谷/main.i: 洛谷/main.cpp.i
+.PHONY : 洛谷/main.i
+
+# target to preprocess a source file
+洛谷/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/洛谷/main.cpp.i
+.PHONY : 洛谷/main.cpp.i
+
+洛谷/main.s: 洛谷/main.cpp.s
+.PHONY : 洛谷/main.s
+
+# target to generate assembly for a file
+洛谷/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/洛谷/main.cpp.s
+.PHONY : 洛谷/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -223,6 +244,9 @@ help:
 	@echo "... text.o"
 	@echo "... text.i"
 	@echo "... text.s"
+	@echo "... 洛谷/main.o"
+	@echo "... 洛谷/main.i"
+	@echo "... 洛谷/main.s"
 .PHONY : help
 
 
