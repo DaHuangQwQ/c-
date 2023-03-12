@@ -155,6 +155,30 @@ text/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text.dir/build.make CMakeFiles/text.dir/build
 .PHONY : text/fast
 
+ACWing/main.o: ACWing/main.cpp.o
+.PHONY : ACWing/main.o
+
+# target to build an object file
+ACWing/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ACWing/main.cpp.o
+.PHONY : ACWing/main.cpp.o
+
+ACWing/main.i: ACWing/main.cpp.i
+.PHONY : ACWing/main.i
+
+# target to preprocess a source file
+ACWing/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ACWing/main.cpp.i
+.PHONY : ACWing/main.cpp.i
+
+ACWing/main.s: ACWing/main.cpp.s
+.PHONY : ACWing/main.s
+
+# target to generate assembly for a file
+ACWing/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ACWing/main.cpp.s
+.PHONY : ACWing/main.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -203,30 +227,6 @@ text.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text.dir/build.make CMakeFiles/text.dir/text.cpp.s
 .PHONY : text.cpp.s
 
-洛谷/main.o: 洛谷/main.cpp.o
-.PHONY : 洛谷/main.o
-
-# target to build an object file
-洛谷/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/洛谷/main.cpp.o
-.PHONY : 洛谷/main.cpp.o
-
-洛谷/main.i: 洛谷/main.cpp.i
-.PHONY : 洛谷/main.i
-
-# target to preprocess a source file
-洛谷/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/洛谷/main.cpp.i
-.PHONY : 洛谷/main.cpp.i
-
-洛谷/main.s: 洛谷/main.cpp.s
-.PHONY : 洛谷/main.s
-
-# target to generate assembly for a file
-洛谷/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/洛谷/main.cpp.s
-.PHONY : 洛谷/main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -238,15 +238,15 @@ help:
 	@echo "... main"
 	@echo "... text"
 	@echo "... untitled"
+	@echo "... ACWing/main.o"
+	@echo "... ACWing/main.i"
+	@echo "... ACWing/main.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... text.o"
 	@echo "... text.i"
 	@echo "... text.s"
-	@echo "... 洛谷/main.o"
-	@echo "... 洛谷/main.i"
-	@echo "... 洛谷/main.s"
 .PHONY : help
 
 
