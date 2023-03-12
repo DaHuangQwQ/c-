@@ -1,3 +1,5 @@
 /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir
+/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/main.dir
+/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/text.dir
 /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
