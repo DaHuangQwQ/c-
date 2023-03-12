@@ -42,11 +42,6 @@ int main(){
         }
     }
     cout << sum;
-
-
-
-
-
 }
 
 
