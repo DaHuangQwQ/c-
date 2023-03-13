@@ -194,6 +194,19 @@ P1101/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1101.dir/build.make CMakeFiles/P1101.dir/build
 .PHONY : P1101/fast
 
+#=============================================================================
+# Target rules for targets named P1162
+
+# Build rule for target.
+P1162: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P1162
+.PHONY : P1162
+
+# fast build rule for target.
+P1162/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1162.dir/build.make CMakeFiles/P1162.dir/build
+.PHONY : P1162/fast
+
 ACWing/836.o: ACWing/836.cpp.o
 .PHONY : ACWing/836.o
 
@@ -241,6 +254,30 @@ luo_gu/P1101.s: luo_gu/P1101.cpp.s
 luo_gu/P1101.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1101.dir/build.make CMakeFiles/P1101.dir/luo_gu/P1101.cpp.s
 .PHONY : luo_gu/P1101.cpp.s
+
+luo_gu/P1162.o: luo_gu/P1162.cpp.o
+.PHONY : luo_gu/P1162.o
+
+# target to build an object file
+luo_gu/P1162.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1162.dir/build.make CMakeFiles/P1162.dir/luo_gu/P1162.cpp.o
+.PHONY : luo_gu/P1162.cpp.o
+
+luo_gu/P1162.i: luo_gu/P1162.cpp.i
+.PHONY : luo_gu/P1162.i
+
+# target to preprocess a source file
+luo_gu/P1162.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1162.dir/build.make CMakeFiles/P1162.dir/luo_gu/P1162.cpp.i
+.PHONY : luo_gu/P1162.cpp.i
+
+luo_gu/P1162.s: luo_gu/P1162.cpp.s
+.PHONY : luo_gu/P1162.s
+
+# target to generate assembly for a file
+luo_gu/P1162.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1162.dir/build.make CMakeFiles/P1162.dir/luo_gu/P1162.cpp.s
+.PHONY : luo_gu/P1162.cpp.s
 
 luo_gu/P1825.o: luo_gu/P1825.cpp.o
 .PHONY : luo_gu/P1825.o
@@ -348,6 +385,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 836"
 	@echo "... P1101"
+	@echo "... P1162"
 	@echo "... P1825"
 	@echo "... main1"
 	@echo "... text"
@@ -358,6 +396,9 @@ help:
 	@echo "... luo_gu/P1101.o"
 	@echo "... luo_gu/P1101.i"
 	@echo "... luo_gu/P1101.s"
+	@echo "... luo_gu/P1162.o"
+	@echo "... luo_gu/P1162.i"
+	@echo "... luo_gu/P1162.s"
 	@echo "... luo_gu/P1825.o"
 	@echo "... luo_gu/P1825.i"
 	@echo "... luo_gu/P1825.s"
