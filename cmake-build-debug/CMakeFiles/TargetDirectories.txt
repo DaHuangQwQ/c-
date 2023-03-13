@@ -1,5 +1,8 @@
 /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir
-/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/main.dir
 /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/text.dir
+/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/main1.dir
+/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/836.dir
+/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P1825.dir
+/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P1101.dir
 /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir

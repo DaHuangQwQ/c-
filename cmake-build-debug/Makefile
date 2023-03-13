@@ -130,19 +130,6 @@ untitled/fast:
 .PHONY : untitled/fast
 
 #=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-#=============================================================================
 # Target rules for targets named text
 
 # Build rule for target.
@@ -155,29 +142,153 @@ text/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text.dir/build.make CMakeFiles/text.dir/build
 .PHONY : text/fast
 
-ACWing/main.o: ACWing/main.cpp.o
-.PHONY : ACWing/main.o
+#=============================================================================
+# Target rules for targets named main1
+
+# Build rule for target.
+main1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main1
+.PHONY : main1
+
+# fast build rule for target.
+main1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/build
+.PHONY : main1/fast
+
+#=============================================================================
+# Target rules for targets named 836
+
+# Build rule for target.
+836: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 836
+.PHONY : 836
+
+# fast build rule for target.
+836/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/836.dir/build.make CMakeFiles/836.dir/build
+.PHONY : 836/fast
+
+#=============================================================================
+# Target rules for targets named P1825
+
+# Build rule for target.
+P1825: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P1825
+.PHONY : P1825
+
+# fast build rule for target.
+P1825/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1825.dir/build.make CMakeFiles/P1825.dir/build
+.PHONY : P1825/fast
+
+#=============================================================================
+# Target rules for targets named P1101
+
+# Build rule for target.
+P1101: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P1101
+.PHONY : P1101
+
+# fast build rule for target.
+P1101/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1101.dir/build.make CMakeFiles/P1101.dir/build
+.PHONY : P1101/fast
+
+ACWing/836.o: ACWing/836.cpp.o
+.PHONY : ACWing/836.o
 
 # target to build an object file
-ACWing/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ACWing/main.cpp.o
-.PHONY : ACWing/main.cpp.o
+ACWing/836.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/836.dir/build.make CMakeFiles/836.dir/ACWing/836.cpp.o
+.PHONY : ACWing/836.cpp.o
 
-ACWing/main.i: ACWing/main.cpp.i
-.PHONY : ACWing/main.i
+ACWing/836.i: ACWing/836.cpp.i
+.PHONY : ACWing/836.i
 
 # target to preprocess a source file
-ACWing/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ACWing/main.cpp.i
-.PHONY : ACWing/main.cpp.i
+ACWing/836.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/836.dir/build.make CMakeFiles/836.dir/ACWing/836.cpp.i
+.PHONY : ACWing/836.cpp.i
 
-ACWing/main.s: ACWing/main.cpp.s
-.PHONY : ACWing/main.s
+ACWing/836.s: ACWing/836.cpp.s
+.PHONY : ACWing/836.s
 
 # target to generate assembly for a file
-ACWing/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ACWing/main.cpp.s
-.PHONY : ACWing/main.cpp.s
+ACWing/836.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/836.dir/build.make CMakeFiles/836.dir/ACWing/836.cpp.s
+.PHONY : ACWing/836.cpp.s
+
+luo_gu/P1101.o: luo_gu/P1101.cpp.o
+.PHONY : luo_gu/P1101.o
+
+# target to build an object file
+luo_gu/P1101.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1101.dir/build.make CMakeFiles/P1101.dir/luo_gu/P1101.cpp.o
+.PHONY : luo_gu/P1101.cpp.o
+
+luo_gu/P1101.i: luo_gu/P1101.cpp.i
+.PHONY : luo_gu/P1101.i
+
+# target to preprocess a source file
+luo_gu/P1101.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1101.dir/build.make CMakeFiles/P1101.dir/luo_gu/P1101.cpp.i
+.PHONY : luo_gu/P1101.cpp.i
+
+luo_gu/P1101.s: luo_gu/P1101.cpp.s
+.PHONY : luo_gu/P1101.s
+
+# target to generate assembly for a file
+luo_gu/P1101.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1101.dir/build.make CMakeFiles/P1101.dir/luo_gu/P1101.cpp.s
+.PHONY : luo_gu/P1101.cpp.s
+
+luo_gu/P1825.o: luo_gu/P1825.cpp.o
+.PHONY : luo_gu/P1825.o
+
+# target to build an object file
+luo_gu/P1825.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1825.dir/build.make CMakeFiles/P1825.dir/luo_gu/P1825.cpp.o
+.PHONY : luo_gu/P1825.cpp.o
+
+luo_gu/P1825.i: luo_gu/P1825.cpp.i
+.PHONY : luo_gu/P1825.i
+
+# target to preprocess a source file
+luo_gu/P1825.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1825.dir/build.make CMakeFiles/P1825.dir/luo_gu/P1825.cpp.i
+.PHONY : luo_gu/P1825.cpp.i
+
+luo_gu/P1825.s: luo_gu/P1825.cpp.s
+.PHONY : luo_gu/P1825.s
+
+# target to generate assembly for a file
+luo_gu/P1825.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1825.dir/build.make CMakeFiles/P1825.dir/luo_gu/P1825.cpp.s
+.PHONY : luo_gu/P1825.cpp.s
+
+luo_gu/main1.o: luo_gu/main1.cpp.o
+.PHONY : luo_gu/main1.o
+
+# target to build an object file
+luo_gu/main1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/luo_gu/main1.cpp.o
+.PHONY : luo_gu/main1.cpp.o
+
+luo_gu/main1.i: luo_gu/main1.cpp.i
+.PHONY : luo_gu/main1.i
+
+# target to preprocess a source file
+luo_gu/main1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/luo_gu/main1.cpp.i
+.PHONY : luo_gu/main1.cpp.i
+
+luo_gu/main1.s: luo_gu/main1.cpp.s
+.PHONY : luo_gu/main1.s
+
+# target to generate assembly for a file
+luo_gu/main1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/luo_gu/main1.cpp.s
+.PHONY : luo_gu/main1.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -235,12 +346,24 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main"
+	@echo "... 836"
+	@echo "... P1101"
+	@echo "... P1825"
+	@echo "... main1"
 	@echo "... text"
 	@echo "... untitled"
-	@echo "... ACWing/main.o"
-	@echo "... ACWing/main.i"
-	@echo "... ACWing/main.s"
+	@echo "... ACWing/836.o"
+	@echo "... ACWing/836.i"
+	@echo "... ACWing/836.s"
+	@echo "... luo_gu/P1101.o"
+	@echo "... luo_gu/P1101.i"
+	@echo "... luo_gu/P1101.s"
+	@echo "... luo_gu/P1825.o"
+	@echo "... luo_gu/P1825.i"
+	@echo "... luo_gu/P1825.s"
+	@echo "... luo_gu/main1.o"
+	@echo "... luo_gu/main1.i"
+	@echo "... luo_gu/main1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

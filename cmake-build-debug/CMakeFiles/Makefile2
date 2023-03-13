@@ -64,8 +64,11 @@ CMAKE_BINARY_DIR = /Users/dahuang/CLionProjects/untitled/cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/untitled.dir/all
-all: CMakeFiles/main.dir/all
 all: CMakeFiles/text.dir/all
+all: CMakeFiles/main1.dir/all
+all: CMakeFiles/836.dir/all
+all: CMakeFiles/P1825.dir/all
+all: CMakeFiles/P1101.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,8 +77,11 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/untitled.dir/clean
-clean: CMakeFiles/main.dir/clean
 clean: CMakeFiles/text.dir/clean
+clean: CMakeFiles/main1.dir/clean
+clean: CMakeFiles/836.dir/clean
+clean: CMakeFiles/P1825.dir/clean
+clean: CMakeFiles/P1101.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -85,7 +91,7 @@ clean: CMakeFiles/text.dir/clean
 CMakeFiles/untitled.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target untitled"
 .PHONY : CMakeFiles/untitled.dir/all
 
 # Build rule for subdir invocation for target.
@@ -105,39 +111,13 @@ CMakeFiles/untitled.dir/clean:
 .PHONY : CMakeFiles/untitled.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
-
-# All Build rule for target.
-CMakeFiles/main.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/main.dir/rule
-
-# Convenience name for target.
-main: CMakeFiles/main.dir/rule
-.PHONY : main
-
-# clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/text.dir
 
 # All Build rule for target.
 CMakeFiles/text.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text.dir/build.make CMakeFiles/text.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text.dir/build.make CMakeFiles/text.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target text"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target text"
 .PHONY : CMakeFiles/text.dir/all
 
 # Build rule for subdir invocation for target.
@@ -155,6 +135,110 @@ text: CMakeFiles/text.dir/rule
 CMakeFiles/text.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text.dir/build.make CMakeFiles/text.dir/clean
 .PHONY : CMakeFiles/text.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main1.dir
+
+# All Build rule for target.
+CMakeFiles/main1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target main1"
+.PHONY : CMakeFiles/main1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/main1.dir/rule
+
+# Convenience name for target.
+main1: CMakeFiles/main1.dir/rule
+.PHONY : main1
+
+# clean rule for target.
+CMakeFiles/main1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/clean
+.PHONY : CMakeFiles/main1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/836.dir
+
+# All Build rule for target.
+CMakeFiles/836.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/836.dir/build.make CMakeFiles/836.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/836.dir/build.make CMakeFiles/836.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 836"
+.PHONY : CMakeFiles/836.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/836.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/836.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/836.dir/rule
+
+# Convenience name for target.
+836: CMakeFiles/836.dir/rule
+.PHONY : 836
+
+# clean rule for target.
+CMakeFiles/836.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/836.dir/build.make CMakeFiles/836.dir/clean
+.PHONY : CMakeFiles/836.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P1825.dir
+
+# All Build rule for target.
+CMakeFiles/P1825.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1825.dir/build.make CMakeFiles/P1825.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1825.dir/build.make CMakeFiles/P1825.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target P1825"
+.PHONY : CMakeFiles/P1825.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P1825.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/P1825.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P1825.dir/rule
+
+# Convenience name for target.
+P1825: CMakeFiles/P1825.dir/rule
+.PHONY : P1825
+
+# clean rule for target.
+CMakeFiles/P1825.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1825.dir/build.make CMakeFiles/P1825.dir/clean
+.PHONY : CMakeFiles/P1825.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P1101.dir
+
+# All Build rule for target.
+CMakeFiles/P1101.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1101.dir/build.make CMakeFiles/P1101.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1101.dir/build.make CMakeFiles/P1101.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target P1101"
+.PHONY : CMakeFiles/P1101.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P1101.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/P1101.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P1101.dir/rule
+
+# Convenience name for target.
+P1101: CMakeFiles/P1101.dir/rule
+.PHONY : P1101
+
+# clean rule for target.
+CMakeFiles/P1101.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1101.dir/build.make CMakeFiles/P1101.dir/clean
+.PHONY : CMakeFiles/P1101.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
