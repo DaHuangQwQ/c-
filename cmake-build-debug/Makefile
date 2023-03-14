@@ -272,6 +272,19 @@ P3370/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3370.dir/build.make CMakeFiles/P3370.dir/build
 .PHONY : P3370/fast
 
+#=============================================================================
+# Target rules for targets named 837
+
+# Build rule for target.
+837: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 837
+.PHONY : 837
+
+# fast build rule for target.
+837/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/837.dir/build.make CMakeFiles/837.dir/build
+.PHONY : 837/fast
+
 ACWing/836.o: ACWing/836.cpp.o
 .PHONY : ACWing/836.o
 
@@ -295,6 +308,30 @@ ACWing/836.s: ACWing/836.cpp.s
 ACWing/836.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/836.dir/build.make CMakeFiles/836.dir/ACWing/836.cpp.s
 .PHONY : ACWing/836.cpp.s
+
+ACWing/837.o: ACWing/837.cpp.o
+.PHONY : ACWing/837.o
+
+# target to build an object file
+ACWing/837.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/837.dir/build.make CMakeFiles/837.dir/ACWing/837.cpp.o
+.PHONY : ACWing/837.cpp.o
+
+ACWing/837.i: ACWing/837.cpp.i
+.PHONY : ACWing/837.i
+
+# target to preprocess a source file
+ACWing/837.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/837.dir/build.make CMakeFiles/837.dir/ACWing/837.cpp.i
+.PHONY : ACWing/837.cpp.i
+
+ACWing/837.s: ACWing/837.cpp.s
+.PHONY : ACWing/837.s
+
+# target to generate assembly for a file
+ACWing/837.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/837.dir/build.make CMakeFiles/837.dir/ACWing/837.cpp.s
+.PHONY : ACWing/837.cpp.s
 
 luo_gu/P1019.o: luo_gu/P1019.cpp.o
 .PHONY : luo_gu/P1019.o
@@ -569,6 +606,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 836"
+	@echo "... 837"
 	@echo "... P1019"
 	@echo "... P1101"
 	@echo "... P1162"
@@ -583,6 +621,9 @@ help:
 	@echo "... ACWing/836.o"
 	@echo "... ACWing/836.i"
 	@echo "... ACWing/836.s"
+	@echo "... ACWing/837.o"
+	@echo "... ACWing/837.i"
+	@echo "... ACWing/837.s"
 	@echo "... luo_gu/P1019.o"
 	@echo "... luo_gu/P1019.i"
 	@echo "... luo_gu/P1019.s"
