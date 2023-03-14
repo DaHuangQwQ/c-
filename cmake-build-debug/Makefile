@@ -285,6 +285,69 @@ P3370/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/837.dir/build.make CMakeFiles/837.dir/build
 .PHONY : 837/fast
 
+#=============================================================================
+# Target rules for targets named 240
+
+# Build rule for target.
+240: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 240
+.PHONY : 240
+
+# fast build rule for target.
+240/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/240.dir/build.make CMakeFiles/240.dir/build
+.PHONY : 240/fast
+
+#=============================================================================
+# Target rules for targets named P1996
+
+# Build rule for target.
+P1996: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P1996
+.PHONY : P1996
+
+# fast build rule for target.
+P1996/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1996.dir/build.make CMakeFiles/P1996.dir/build
+.PHONY : P1996/fast
+
+#=============================================================================
+# Target rules for targets named P1115
+
+# Build rule for target.
+P1115: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P1115
+.PHONY : P1115
+
+# fast build rule for target.
+P1115/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1115.dir/build.make CMakeFiles/P1115.dir/build
+.PHONY : P1115/fast
+
+ACWing/240.o: ACWing/240.cpp.o
+.PHONY : ACWing/240.o
+
+# target to build an object file
+ACWing/240.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/240.dir/build.make CMakeFiles/240.dir/ACWing/240.cpp.o
+.PHONY : ACWing/240.cpp.o
+
+ACWing/240.i: ACWing/240.cpp.i
+.PHONY : ACWing/240.i
+
+# target to preprocess a source file
+ACWing/240.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/240.dir/build.make CMakeFiles/240.dir/ACWing/240.cpp.i
+.PHONY : ACWing/240.cpp.i
+
+ACWing/240.s: ACWing/240.cpp.s
+.PHONY : ACWing/240.s
+
+# target to generate assembly for a file
+ACWing/240.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/240.dir/build.make CMakeFiles/240.dir/ACWing/240.cpp.s
+.PHONY : ACWing/240.cpp.s
+
 ACWing/836.o: ACWing/836.cpp.o
 .PHONY : ACWing/836.o
 
@@ -381,6 +444,30 @@ luo_gu/P1101.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1101.dir/build.make CMakeFiles/P1101.dir/luo_gu/P1101.cpp.s
 .PHONY : luo_gu/P1101.cpp.s
 
+luo_gu/P1115.o: luo_gu/P1115.cpp.o
+.PHONY : luo_gu/P1115.o
+
+# target to build an object file
+luo_gu/P1115.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1115.dir/build.make CMakeFiles/P1115.dir/luo_gu/P1115.cpp.o
+.PHONY : luo_gu/P1115.cpp.o
+
+luo_gu/P1115.i: luo_gu/P1115.cpp.i
+.PHONY : luo_gu/P1115.i
+
+# target to preprocess a source file
+luo_gu/P1115.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1115.dir/build.make CMakeFiles/P1115.dir/luo_gu/P1115.cpp.i
+.PHONY : luo_gu/P1115.cpp.i
+
+luo_gu/P1115.s: luo_gu/P1115.cpp.s
+.PHONY : luo_gu/P1115.s
+
+# target to generate assembly for a file
+luo_gu/P1115.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1115.dir/build.make CMakeFiles/P1115.dir/luo_gu/P1115.cpp.s
+.PHONY : luo_gu/P1115.cpp.s
+
 luo_gu/P1162.o: luo_gu/P1162.cpp.o
 .PHONY : luo_gu/P1162.o
 
@@ -476,6 +563,30 @@ luo_gu/P1825.s: luo_gu/P1825.cpp.s
 luo_gu/P1825.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1825.dir/build.make CMakeFiles/P1825.dir/luo_gu/P1825.cpp.s
 .PHONY : luo_gu/P1825.cpp.s
+
+luo_gu/P1996.o: luo_gu/P1996.cpp.o
+.PHONY : luo_gu/P1996.o
+
+# target to build an object file
+luo_gu/P1996.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1996.dir/build.make CMakeFiles/P1996.dir/luo_gu/P1996.cpp.o
+.PHONY : luo_gu/P1996.cpp.o
+
+luo_gu/P1996.i: luo_gu/P1996.cpp.i
+.PHONY : luo_gu/P1996.i
+
+# target to preprocess a source file
+luo_gu/P1996.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1996.dir/build.make CMakeFiles/P1996.dir/luo_gu/P1996.cpp.i
+.PHONY : luo_gu/P1996.cpp.i
+
+luo_gu/P1996.s: luo_gu/P1996.cpp.s
+.PHONY : luo_gu/P1996.s
+
+# target to generate assembly for a file
+luo_gu/P1996.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1996.dir/build.make CMakeFiles/P1996.dir/luo_gu/P1996.cpp.s
+.PHONY : luo_gu/P1996.cpp.s
 
 luo_gu/P2895.o: luo_gu/P2895.cpp.o
 .PHONY : luo_gu/P2895.o
@@ -605,19 +716,25 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... 240"
 	@echo "... 836"
 	@echo "... 837"
 	@echo "... P1019"
 	@echo "... P1101"
+	@echo "... P1115"
 	@echo "... P1162"
 	@echo "... P1536"
 	@echo "... P1551"
 	@echo "... P1825"
+	@echo "... P1996"
 	@echo "... P2895"
 	@echo "... P3370"
 	@echo "... main1"
 	@echo "... text"
 	@echo "... untitled"
+	@echo "... ACWing/240.o"
+	@echo "... ACWing/240.i"
+	@echo "... ACWing/240.s"
 	@echo "... ACWing/836.o"
 	@echo "... ACWing/836.i"
 	@echo "... ACWing/836.s"
@@ -630,6 +747,9 @@ help:
 	@echo "... luo_gu/P1101.o"
 	@echo "... luo_gu/P1101.i"
 	@echo "... luo_gu/P1101.s"
+	@echo "... luo_gu/P1115.o"
+	@echo "... luo_gu/P1115.i"
+	@echo "... luo_gu/P1115.s"
 	@echo "... luo_gu/P1162.o"
 	@echo "... luo_gu/P1162.i"
 	@echo "... luo_gu/P1162.s"
@@ -642,6 +762,9 @@ help:
 	@echo "... luo_gu/P1825.o"
 	@echo "... luo_gu/P1825.i"
 	@echo "... luo_gu/P1825.s"
+	@echo "... luo_gu/P1996.o"
+	@echo "... luo_gu/P1996.i"
+	@echo "... luo_gu/P1996.s"
 	@echo "... luo_gu/P2895.o"
 	@echo "... luo_gu/P2895.i"
 	@echo "... luo_gu/P2895.s"
