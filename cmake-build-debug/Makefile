@@ -207,6 +207,19 @@ P1162/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1162.dir/build.make CMakeFiles/P1162.dir/build
 .PHONY : P1162/fast
 
+#=============================================================================
+# Target rules for targets named P2895
+
+# Build rule for target.
+P2895: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P2895
+.PHONY : P2895
+
+# fast build rule for target.
+P2895/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2895.dir/build.make CMakeFiles/P2895.dir/build
+.PHONY : P2895/fast
+
 ACWing/836.o: ACWing/836.cpp.o
 .PHONY : ACWing/836.o
 
@@ -303,6 +316,30 @@ luo_gu/P1825.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1825.dir/build.make CMakeFiles/P1825.dir/luo_gu/P1825.cpp.s
 .PHONY : luo_gu/P1825.cpp.s
 
+luo_gu/P2895.o: luo_gu/P2895.cpp.o
+.PHONY : luo_gu/P2895.o
+
+# target to build an object file
+luo_gu/P2895.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2895.dir/build.make CMakeFiles/P2895.dir/luo_gu/P2895.cpp.o
+.PHONY : luo_gu/P2895.cpp.o
+
+luo_gu/P2895.i: luo_gu/P2895.cpp.i
+.PHONY : luo_gu/P2895.i
+
+# target to preprocess a source file
+luo_gu/P2895.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2895.dir/build.make CMakeFiles/P2895.dir/luo_gu/P2895.cpp.i
+.PHONY : luo_gu/P2895.cpp.i
+
+luo_gu/P2895.s: luo_gu/P2895.cpp.s
+.PHONY : luo_gu/P2895.s
+
+# target to generate assembly for a file
+luo_gu/P2895.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2895.dir/build.make CMakeFiles/P2895.dir/luo_gu/P2895.cpp.s
+.PHONY : luo_gu/P2895.cpp.s
+
 luo_gu/main1.o: luo_gu/main1.cpp.o
 .PHONY : luo_gu/main1.o
 
@@ -387,6 +424,7 @@ help:
 	@echo "... P1101"
 	@echo "... P1162"
 	@echo "... P1825"
+	@echo "... P2895"
 	@echo "... main1"
 	@echo "... text"
 	@echo "... untitled"
@@ -402,6 +440,9 @@ help:
 	@echo "... luo_gu/P1825.o"
 	@echo "... luo_gu/P1825.i"
 	@echo "... luo_gu/P1825.s"
+	@echo "... luo_gu/P2895.o"
+	@echo "... luo_gu/P2895.i"
+	@echo "... luo_gu/P2895.s"
 	@echo "... luo_gu/main1.o"
 	@echo "... luo_gu/main1.i"
 	@echo "... luo_gu/main1.s"
