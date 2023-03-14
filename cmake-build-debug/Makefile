@@ -220,6 +220,58 @@ P2895/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2895.dir/build.make CMakeFiles/P2895.dir/build
 .PHONY : P2895/fast
 
+#=============================================================================
+# Target rules for targets named P1019
+
+# Build rule for target.
+P1019: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P1019
+.PHONY : P1019
+
+# fast build rule for target.
+P1019/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1019.dir/build.make CMakeFiles/P1019.dir/build
+.PHONY : P1019/fast
+
+#=============================================================================
+# Target rules for targets named P1551
+
+# Build rule for target.
+P1551: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P1551
+.PHONY : P1551
+
+# fast build rule for target.
+P1551/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1551.dir/build.make CMakeFiles/P1551.dir/build
+.PHONY : P1551/fast
+
+#=============================================================================
+# Target rules for targets named P1536
+
+# Build rule for target.
+P1536: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P1536
+.PHONY : P1536
+
+# fast build rule for target.
+P1536/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1536.dir/build.make CMakeFiles/P1536.dir/build
+.PHONY : P1536/fast
+
+#=============================================================================
+# Target rules for targets named P3370
+
+# Build rule for target.
+P3370: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P3370
+.PHONY : P3370
+
+# fast build rule for target.
+P3370/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3370.dir/build.make CMakeFiles/P3370.dir/build
+.PHONY : P3370/fast
+
 ACWing/836.o: ACWing/836.cpp.o
 .PHONY : ACWing/836.o
 
@@ -243,6 +295,30 @@ ACWing/836.s: ACWing/836.cpp.s
 ACWing/836.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/836.dir/build.make CMakeFiles/836.dir/ACWing/836.cpp.s
 .PHONY : ACWing/836.cpp.s
+
+luo_gu/P1019.o: luo_gu/P1019.cpp.o
+.PHONY : luo_gu/P1019.o
+
+# target to build an object file
+luo_gu/P1019.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1019.dir/build.make CMakeFiles/P1019.dir/luo_gu/P1019.cpp.o
+.PHONY : luo_gu/P1019.cpp.o
+
+luo_gu/P1019.i: luo_gu/P1019.cpp.i
+.PHONY : luo_gu/P1019.i
+
+# target to preprocess a source file
+luo_gu/P1019.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1019.dir/build.make CMakeFiles/P1019.dir/luo_gu/P1019.cpp.i
+.PHONY : luo_gu/P1019.cpp.i
+
+luo_gu/P1019.s: luo_gu/P1019.cpp.s
+.PHONY : luo_gu/P1019.s
+
+# target to generate assembly for a file
+luo_gu/P1019.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1019.dir/build.make CMakeFiles/P1019.dir/luo_gu/P1019.cpp.s
+.PHONY : luo_gu/P1019.cpp.s
 
 luo_gu/P1101.o: luo_gu/P1101.cpp.o
 .PHONY : luo_gu/P1101.o
@@ -292,6 +368,54 @@ luo_gu/P1162.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1162.dir/build.make CMakeFiles/P1162.dir/luo_gu/P1162.cpp.s
 .PHONY : luo_gu/P1162.cpp.s
 
+luo_gu/P1536.o: luo_gu/P1536.cpp.o
+.PHONY : luo_gu/P1536.o
+
+# target to build an object file
+luo_gu/P1536.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1536.dir/build.make CMakeFiles/P1536.dir/luo_gu/P1536.cpp.o
+.PHONY : luo_gu/P1536.cpp.o
+
+luo_gu/P1536.i: luo_gu/P1536.cpp.i
+.PHONY : luo_gu/P1536.i
+
+# target to preprocess a source file
+luo_gu/P1536.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1536.dir/build.make CMakeFiles/P1536.dir/luo_gu/P1536.cpp.i
+.PHONY : luo_gu/P1536.cpp.i
+
+luo_gu/P1536.s: luo_gu/P1536.cpp.s
+.PHONY : luo_gu/P1536.s
+
+# target to generate assembly for a file
+luo_gu/P1536.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1536.dir/build.make CMakeFiles/P1536.dir/luo_gu/P1536.cpp.s
+.PHONY : luo_gu/P1536.cpp.s
+
+luo_gu/P1551.o: luo_gu/P1551.cpp.o
+.PHONY : luo_gu/P1551.o
+
+# target to build an object file
+luo_gu/P1551.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1551.dir/build.make CMakeFiles/P1551.dir/luo_gu/P1551.cpp.o
+.PHONY : luo_gu/P1551.cpp.o
+
+luo_gu/P1551.i: luo_gu/P1551.cpp.i
+.PHONY : luo_gu/P1551.i
+
+# target to preprocess a source file
+luo_gu/P1551.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1551.dir/build.make CMakeFiles/P1551.dir/luo_gu/P1551.cpp.i
+.PHONY : luo_gu/P1551.cpp.i
+
+luo_gu/P1551.s: luo_gu/P1551.cpp.s
+.PHONY : luo_gu/P1551.s
+
+# target to generate assembly for a file
+luo_gu/P1551.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1551.dir/build.make CMakeFiles/P1551.dir/luo_gu/P1551.cpp.s
+.PHONY : luo_gu/P1551.cpp.s
+
 luo_gu/P1825.o: luo_gu/P1825.cpp.o
 .PHONY : luo_gu/P1825.o
 
@@ -339,6 +463,30 @@ luo_gu/P2895.s: luo_gu/P2895.cpp.s
 luo_gu/P2895.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2895.dir/build.make CMakeFiles/P2895.dir/luo_gu/P2895.cpp.s
 .PHONY : luo_gu/P2895.cpp.s
+
+luo_gu/P3370.o: luo_gu/P3370.cpp.o
+.PHONY : luo_gu/P3370.o
+
+# target to build an object file
+luo_gu/P3370.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3370.dir/build.make CMakeFiles/P3370.dir/luo_gu/P3370.cpp.o
+.PHONY : luo_gu/P3370.cpp.o
+
+luo_gu/P3370.i: luo_gu/P3370.cpp.i
+.PHONY : luo_gu/P3370.i
+
+# target to preprocess a source file
+luo_gu/P3370.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3370.dir/build.make CMakeFiles/P3370.dir/luo_gu/P3370.cpp.i
+.PHONY : luo_gu/P3370.cpp.i
+
+luo_gu/P3370.s: luo_gu/P3370.cpp.s
+.PHONY : luo_gu/P3370.s
+
+# target to generate assembly for a file
+luo_gu/P3370.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3370.dir/build.make CMakeFiles/P3370.dir/luo_gu/P3370.cpp.s
+.PHONY : luo_gu/P3370.cpp.s
 
 luo_gu/main1.o: luo_gu/main1.cpp.o
 .PHONY : luo_gu/main1.o
@@ -421,28 +569,44 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 836"
+	@echo "... P1019"
 	@echo "... P1101"
 	@echo "... P1162"
+	@echo "... P1536"
+	@echo "... P1551"
 	@echo "... P1825"
 	@echo "... P2895"
+	@echo "... P3370"
 	@echo "... main1"
 	@echo "... text"
 	@echo "... untitled"
 	@echo "... ACWing/836.o"
 	@echo "... ACWing/836.i"
 	@echo "... ACWing/836.s"
+	@echo "... luo_gu/P1019.o"
+	@echo "... luo_gu/P1019.i"
+	@echo "... luo_gu/P1019.s"
 	@echo "... luo_gu/P1101.o"
 	@echo "... luo_gu/P1101.i"
 	@echo "... luo_gu/P1101.s"
 	@echo "... luo_gu/P1162.o"
 	@echo "... luo_gu/P1162.i"
 	@echo "... luo_gu/P1162.s"
+	@echo "... luo_gu/P1536.o"
+	@echo "... luo_gu/P1536.i"
+	@echo "... luo_gu/P1536.s"
+	@echo "... luo_gu/P1551.o"
+	@echo "... luo_gu/P1551.i"
+	@echo "... luo_gu/P1551.s"
 	@echo "... luo_gu/P1825.o"
 	@echo "... luo_gu/P1825.i"
 	@echo "... luo_gu/P1825.s"
 	@echo "... luo_gu/P2895.o"
 	@echo "... luo_gu/P2895.i"
 	@echo "... luo_gu/P2895.s"
+	@echo "... luo_gu/P3370.o"
+	@echo "... luo_gu/P3370.i"
+	@echo "... luo_gu/P3370.s"
 	@echo "... luo_gu/main1.o"
 	@echo "... luo_gu/main1.i"
 	@echo "... luo_gu/main1.s"

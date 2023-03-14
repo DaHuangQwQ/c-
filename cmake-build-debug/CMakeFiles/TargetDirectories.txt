@@ -6,5 +6,9 @@
 /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P1101.dir
 /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P1162.dir
 /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P2895.dir
+/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P1019.dir
+/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P1551.dir
+/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P1536.dir
+/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P3370.dir
 /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
