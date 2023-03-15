@@ -324,6 +324,32 @@ P1115/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1115.dir/build.make CMakeFiles/P1115.dir/build
 .PHONY : P1115/fast
 
+#=============================================================================
+# Target rules for targets named P3397
+
+# Build rule for target.
+P3397: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P3397
+.PHONY : P3397
+
+# fast build rule for target.
+P3397/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3397.dir/build.make CMakeFiles/P3397.dir/build
+.PHONY : P3397/fast
+
+#=============================================================================
+# Target rules for targets named 845
+
+# Build rule for target.
+845: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 845
+.PHONY : 845
+
+# fast build rule for target.
+845/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/845.dir/build.make CMakeFiles/845.dir/build
+.PHONY : 845/fast
+
 ACWing/240.o: ACWing/240.cpp.o
 .PHONY : ACWing/240.o
 
@@ -395,6 +421,30 @@ ACWing/837.s: ACWing/837.cpp.s
 ACWing/837.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/837.dir/build.make CMakeFiles/837.dir/ACWing/837.cpp.s
 .PHONY : ACWing/837.cpp.s
+
+ACWing/845.o: ACWing/845.cpp.o
+.PHONY : ACWing/845.o
+
+# target to build an object file
+ACWing/845.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/845.dir/build.make CMakeFiles/845.dir/ACWing/845.cpp.o
+.PHONY : ACWing/845.cpp.o
+
+ACWing/845.i: ACWing/845.cpp.i
+.PHONY : ACWing/845.i
+
+# target to preprocess a source file
+ACWing/845.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/845.dir/build.make CMakeFiles/845.dir/ACWing/845.cpp.i
+.PHONY : ACWing/845.cpp.i
+
+ACWing/845.s: ACWing/845.cpp.s
+.PHONY : ACWing/845.s
+
+# target to generate assembly for a file
+ACWing/845.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/845.dir/build.make CMakeFiles/845.dir/ACWing/845.cpp.s
+.PHONY : ACWing/845.cpp.s
 
 luo_gu/P1019.o: luo_gu/P1019.cpp.o
 .PHONY : luo_gu/P1019.o
@@ -636,6 +686,30 @@ luo_gu/P3370.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3370.dir/build.make CMakeFiles/P3370.dir/luo_gu/P3370.cpp.s
 .PHONY : luo_gu/P3370.cpp.s
 
+luo_gu/P3397.o: luo_gu/P3397.cpp.o
+.PHONY : luo_gu/P3397.o
+
+# target to build an object file
+luo_gu/P3397.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3397.dir/build.make CMakeFiles/P3397.dir/luo_gu/P3397.cpp.o
+.PHONY : luo_gu/P3397.cpp.o
+
+luo_gu/P3397.i: luo_gu/P3397.cpp.i
+.PHONY : luo_gu/P3397.i
+
+# target to preprocess a source file
+luo_gu/P3397.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3397.dir/build.make CMakeFiles/P3397.dir/luo_gu/P3397.cpp.i
+.PHONY : luo_gu/P3397.cpp.i
+
+luo_gu/P3397.s: luo_gu/P3397.cpp.s
+.PHONY : luo_gu/P3397.s
+
+# target to generate assembly for a file
+luo_gu/P3397.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3397.dir/build.make CMakeFiles/P3397.dir/luo_gu/P3397.cpp.s
+.PHONY : luo_gu/P3397.cpp.s
+
 luo_gu/main1.o: luo_gu/main1.cpp.o
 .PHONY : luo_gu/main1.o
 
@@ -719,6 +793,7 @@ help:
 	@echo "... 240"
 	@echo "... 836"
 	@echo "... 837"
+	@echo "... 845"
 	@echo "... P1019"
 	@echo "... P1101"
 	@echo "... P1115"
@@ -729,6 +804,7 @@ help:
 	@echo "... P1996"
 	@echo "... P2895"
 	@echo "... P3370"
+	@echo "... P3397"
 	@echo "... main1"
 	@echo "... text"
 	@echo "... untitled"
@@ -741,6 +817,9 @@ help:
 	@echo "... ACWing/837.o"
 	@echo "... ACWing/837.i"
 	@echo "... ACWing/837.s"
+	@echo "... ACWing/845.o"
+	@echo "... ACWing/845.i"
+	@echo "... ACWing/845.s"
 	@echo "... luo_gu/P1019.o"
 	@echo "... luo_gu/P1019.i"
 	@echo "... luo_gu/P1019.s"
@@ -771,6 +850,9 @@ help:
 	@echo "... luo_gu/P3370.o"
 	@echo "... luo_gu/P3370.i"
 	@echo "... luo_gu/P3370.s"
+	@echo "... luo_gu/P3397.o"
+	@echo "... luo_gu/P3397.i"
+	@echo "... luo_gu/P3397.s"
 	@echo "... luo_gu/main1.o"
 	@echo "... luo_gu/main1.i"
 	@echo "... luo_gu/main1.s"
