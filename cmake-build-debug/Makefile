@@ -350,6 +350,32 @@ P3397/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/845.dir/build.make CMakeFiles/845.dir/build
 .PHONY : 845/fast
 
+#=============================================================================
+# Target rules for targets named P5266
+
+# Build rule for target.
+P5266: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P5266
+.PHONY : P5266
+
+# fast build rule for target.
+P5266/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P5266.dir/build.make CMakeFiles/P5266.dir/build
+.PHONY : P5266/fast
+
+#=============================================================================
+# Target rules for targets named P2814
+
+# Build rule for target.
+P2814: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P2814
+.PHONY : P2814
+
+# fast build rule for target.
+P2814/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2814.dir/build.make CMakeFiles/P2814.dir/build
+.PHONY : P2814/fast
+
 ACWing/240.o: ACWing/240.cpp.o
 .PHONY : ACWing/240.o
 
@@ -638,6 +664,30 @@ luo_gu/P1996.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1996.dir/build.make CMakeFiles/P1996.dir/luo_gu/P1996.cpp.s
 .PHONY : luo_gu/P1996.cpp.s
 
+luo_gu/P2814.o: luo_gu/P2814.cpp.o
+.PHONY : luo_gu/P2814.o
+
+# target to build an object file
+luo_gu/P2814.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2814.dir/build.make CMakeFiles/P2814.dir/luo_gu/P2814.cpp.o
+.PHONY : luo_gu/P2814.cpp.o
+
+luo_gu/P2814.i: luo_gu/P2814.cpp.i
+.PHONY : luo_gu/P2814.i
+
+# target to preprocess a source file
+luo_gu/P2814.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2814.dir/build.make CMakeFiles/P2814.dir/luo_gu/P2814.cpp.i
+.PHONY : luo_gu/P2814.cpp.i
+
+luo_gu/P2814.s: luo_gu/P2814.cpp.s
+.PHONY : luo_gu/P2814.s
+
+# target to generate assembly for a file
+luo_gu/P2814.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2814.dir/build.make CMakeFiles/P2814.dir/luo_gu/P2814.cpp.s
+.PHONY : luo_gu/P2814.cpp.s
+
 luo_gu/P2895.o: luo_gu/P2895.cpp.o
 .PHONY : luo_gu/P2895.o
 
@@ -709,6 +759,30 @@ luo_gu/P3397.s: luo_gu/P3397.cpp.s
 luo_gu/P3397.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3397.dir/build.make CMakeFiles/P3397.dir/luo_gu/P3397.cpp.s
 .PHONY : luo_gu/P3397.cpp.s
+
+luo_gu/P5266.o: luo_gu/P5266.cpp.o
+.PHONY : luo_gu/P5266.o
+
+# target to build an object file
+luo_gu/P5266.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P5266.dir/build.make CMakeFiles/P5266.dir/luo_gu/P5266.cpp.o
+.PHONY : luo_gu/P5266.cpp.o
+
+luo_gu/P5266.i: luo_gu/P5266.cpp.i
+.PHONY : luo_gu/P5266.i
+
+# target to preprocess a source file
+luo_gu/P5266.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P5266.dir/build.make CMakeFiles/P5266.dir/luo_gu/P5266.cpp.i
+.PHONY : luo_gu/P5266.cpp.i
+
+luo_gu/P5266.s: luo_gu/P5266.cpp.s
+.PHONY : luo_gu/P5266.s
+
+# target to generate assembly for a file
+luo_gu/P5266.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P5266.dir/build.make CMakeFiles/P5266.dir/luo_gu/P5266.cpp.s
+.PHONY : luo_gu/P5266.cpp.s
 
 luo_gu/main1.o: luo_gu/main1.cpp.o
 .PHONY : luo_gu/main1.o
@@ -802,9 +876,11 @@ help:
 	@echo "... P1551"
 	@echo "... P1825"
 	@echo "... P1996"
+	@echo "... P2814"
 	@echo "... P2895"
 	@echo "... P3370"
 	@echo "... P3397"
+	@echo "... P5266"
 	@echo "... main1"
 	@echo "... text"
 	@echo "... untitled"
@@ -844,6 +920,9 @@ help:
 	@echo "... luo_gu/P1996.o"
 	@echo "... luo_gu/P1996.i"
 	@echo "... luo_gu/P1996.s"
+	@echo "... luo_gu/P2814.o"
+	@echo "... luo_gu/P2814.i"
+	@echo "... luo_gu/P2814.s"
 	@echo "... luo_gu/P2895.o"
 	@echo "... luo_gu/P2895.i"
 	@echo "... luo_gu/P2895.s"
@@ -853,6 +932,9 @@ help:
 	@echo "... luo_gu/P3397.o"
 	@echo "... luo_gu/P3397.i"
 	@echo "... luo_gu/P3397.s"
+	@echo "... luo_gu/P5266.o"
+	@echo "... luo_gu/P5266.i"
+	@echo "... luo_gu/P5266.s"
 	@echo "... luo_gu/main1.o"
 	@echo "... luo_gu/main1.i"
 	@echo "... luo_gu/main1.s"

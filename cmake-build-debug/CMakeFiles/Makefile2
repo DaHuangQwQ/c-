@@ -81,6 +81,8 @@ all: CMakeFiles/P1996.dir/all
 all: CMakeFiles/P1115.dir/all
 all: CMakeFiles/P3397.dir/all
 all: CMakeFiles/845.dir/all
+all: CMakeFiles/P5266.dir/all
+all: CMakeFiles/P2814.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -106,6 +108,8 @@ clean: CMakeFiles/P1996.dir/clean
 clean: CMakeFiles/P1115.dir/clean
 clean: CMakeFiles/P3397.dir/clean
 clean: CMakeFiles/845.dir/clean
+clean: CMakeFiles/P5266.dir/clean
+clean: CMakeFiles/P2814.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -115,7 +119,7 @@ clean: CMakeFiles/845.dir/clean
 CMakeFiles/untitled.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target untitled"
 .PHONY : CMakeFiles/untitled.dir/all
 
 # Build rule for subdir invocation for target.
@@ -141,7 +145,7 @@ CMakeFiles/untitled.dir/clean:
 CMakeFiles/text.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text.dir/build.make CMakeFiles/text.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text.dir/build.make CMakeFiles/text.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target text"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target text"
 .PHONY : CMakeFiles/text.dir/all
 
 # Build rule for subdir invocation for target.
@@ -167,7 +171,7 @@ CMakeFiles/text.dir/clean:
 CMakeFiles/main1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target main1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target main1"
 .PHONY : CMakeFiles/main1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -297,7 +301,7 @@ CMakeFiles/P1162.dir/clean:
 CMakeFiles/P2895.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2895.dir/build.make CMakeFiles/P2895.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2895.dir/build.make CMakeFiles/P2895.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target P2895"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target P2895"
 .PHONY : CMakeFiles/P2895.dir/all
 
 # Build rule for subdir invocation for target.
@@ -401,7 +405,7 @@ CMakeFiles/P1536.dir/clean:
 CMakeFiles/P3370.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3370.dir/build.make CMakeFiles/P3370.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3370.dir/build.make CMakeFiles/P3370.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target P3370"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target P3370"
 .PHONY : CMakeFiles/P3370.dir/all
 
 # Build rule for subdir invocation for target.
@@ -531,7 +535,7 @@ CMakeFiles/P1115.dir/clean:
 CMakeFiles/P3397.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3397.dir/build.make CMakeFiles/P3397.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3397.dir/build.make CMakeFiles/P3397.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target P3397"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target P3397"
 .PHONY : CMakeFiles/P3397.dir/all
 
 # Build rule for subdir invocation for target.
@@ -575,6 +579,58 @@ CMakeFiles/845.dir/rule: cmake_check_build_system
 CMakeFiles/845.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/845.dir/build.make CMakeFiles/845.dir/clean
 .PHONY : CMakeFiles/845.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P5266.dir
+
+# All Build rule for target.
+CMakeFiles/P5266.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P5266.dir/build.make CMakeFiles/P5266.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P5266.dir/build.make CMakeFiles/P5266.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target P5266"
+.PHONY : CMakeFiles/P5266.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P5266.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/P5266.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P5266.dir/rule
+
+# Convenience name for target.
+P5266: CMakeFiles/P5266.dir/rule
+.PHONY : P5266
+
+# clean rule for target.
+CMakeFiles/P5266.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P5266.dir/build.make CMakeFiles/P5266.dir/clean
+.PHONY : CMakeFiles/P5266.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P2814.dir
+
+# All Build rule for target.
+CMakeFiles/P2814.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2814.dir/build.make CMakeFiles/P2814.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2814.dir/build.make CMakeFiles/P2814.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target P2814"
+.PHONY : CMakeFiles/P2814.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P2814.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/P2814.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P2814.dir/rule
+
+# Convenience name for target.
+P2814: CMakeFiles/P2814.dir/rule
+.PHONY : P2814
+
+# clean rule for target.
+CMakeFiles/P2814.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2814.dir/build.make CMakeFiles/P2814.dir/clean
+.PHONY : CMakeFiles/P2814.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
