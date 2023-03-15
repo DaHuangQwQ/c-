@@ -1,70 +1,49 @@
-//
+// 845. 八数码
 // Created by DaHuang on 2023/3/15.
-//
+// https://www.acwing.com/problem/content/847/
 #include <iostream>
 #include <queue>
-#include <math.h>
+#include <string>
+#include <unordered_map>
 using namespace std;
-int dx[]={1,-1,0,0};
-int dy[]={0,0,1,-1};
-int n,m;
-int  board[4][4];
-bool vis[4][4];
-struct node{
-    int x,y,k;
-};
-
-bool isval(){
-    for(int i = 1;i <= 9;i++){
-        if(board[i%3][i/3+1] != i){
-            return false;
-        }
-    }
-    return true;
-}
-
-int bfs(int x, int y){
-    queue<node> q;
-    q.push({x,y,0});
+unordered_map<string, int> h;
+int dx[]={1,-1,0,0},dy[]={0,0,1,-1};
+int bfs(string a){
+    queue<string> q;
+    q.push(a);
     while(!q.empty()){
-        node t = q.front();
+        string t = q.front();
         q.pop();
-        if(t.x == 3 && t.y == 3){
-            if(isval()){
-                return t.k;
-            }
+        if(t == "12345678x"){
+            return  h[t];
         }
+        int pos = t.find('x');
+        int a = pos/3;
+        int b = pos%3;
+        int nowt = h[t];
         for(int i = 0;i < 4;i++){
-            int x = dx[i] + t.x;
-            int y = dy[i] + t.y;
-            if(x < 1 || x > 3 || y < 1 || y > 3 || vis[x][y] == true)
+            int x = dx[i] + a;
+            int y = dy[i] + b;
+            if(x < 0 || x > 2 || y < 0 || y > 2)
                 continue;
-            int temp = board[x][y];
-            board[x][y] = board[t.x][t.y];
-            board[t.x][t.y] = temp;
-            q.push({x,y,t.k+1});
+            swap(t[pos] , t[3*x+y]);
+            if(h.find(t) == h.end()){
+                h[t] = nowt + 1;
+                q.push(t);
+            }
+            swap(t[pos] , t[3*x+y]);
         }
     }
     return -1;
 }
 
 int main(){
-    int x0,y0;
-    char ch;
-    for(int i = 1;i <= 3;i++){
-        for(int j = 1;j <= 3; j++){
-            cin >> ch;
-            if(ch == 'x'){
-                x0 = i;
-                y0 = j;
-                board[i][j] = 9;
-            }else{
-                board[i][j] = ch - '0';
-            }
-        }
+    string a;
+    for(int i = 0;i < 9;i++){
+        char c;
+        cin >> c;
+        a+=c;
     }
-
-    cout << bfs(x0,y0) << endl;
-
+    cout << bfs(a) << endl;
     return 0;
 }
