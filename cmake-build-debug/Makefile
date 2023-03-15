@@ -376,6 +376,19 @@ P2814/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2814.dir/build.make CMakeFiles/P2814.dir/build
 .PHONY : P2814/fast
 
+#=============================================================================
+# Target rules for targets named P3879
+
+# Build rule for target.
+P3879: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P3879
+.PHONY : P3879
+
+# fast build rule for target.
+P3879/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3879.dir/build.make CMakeFiles/P3879.dir/build
+.PHONY : P3879/fast
+
 ACWing/240.o: ACWing/240.cpp.o
 .PHONY : ACWing/240.o
 
@@ -760,6 +773,30 @@ luo_gu/P3397.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3397.dir/build.make CMakeFiles/P3397.dir/luo_gu/P3397.cpp.s
 .PHONY : luo_gu/P3397.cpp.s
 
+luo_gu/P3879.o: luo_gu/P3879.cpp.o
+.PHONY : luo_gu/P3879.o
+
+# target to build an object file
+luo_gu/P3879.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3879.dir/build.make CMakeFiles/P3879.dir/luo_gu/P3879.cpp.o
+.PHONY : luo_gu/P3879.cpp.o
+
+luo_gu/P3879.i: luo_gu/P3879.cpp.i
+.PHONY : luo_gu/P3879.i
+
+# target to preprocess a source file
+luo_gu/P3879.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3879.dir/build.make CMakeFiles/P3879.dir/luo_gu/P3879.cpp.i
+.PHONY : luo_gu/P3879.cpp.i
+
+luo_gu/P3879.s: luo_gu/P3879.cpp.s
+.PHONY : luo_gu/P3879.s
+
+# target to generate assembly for a file
+luo_gu/P3879.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3879.dir/build.make CMakeFiles/P3879.dir/luo_gu/P3879.cpp.s
+.PHONY : luo_gu/P3879.cpp.s
+
 luo_gu/P5266.o: luo_gu/P5266.cpp.o
 .PHONY : luo_gu/P5266.o
 
@@ -880,6 +917,7 @@ help:
 	@echo "... P2895"
 	@echo "... P3370"
 	@echo "... P3397"
+	@echo "... P3879"
 	@echo "... P5266"
 	@echo "... main1"
 	@echo "... text"
@@ -932,6 +970,9 @@ help:
 	@echo "... luo_gu/P3397.o"
 	@echo "... luo_gu/P3397.i"
 	@echo "... luo_gu/P3397.s"
+	@echo "... luo_gu/P3879.o"
+	@echo "... luo_gu/P3879.i"
+	@echo "... luo_gu/P3879.s"
 	@echo "... luo_gu/P5266.o"
 	@echo "... luo_gu/P5266.i"
 	@echo "... luo_gu/P5266.s"
