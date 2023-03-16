@@ -402,6 +402,19 @@ P1892/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1892.dir/build.make CMakeFiles/P1892.dir/build
 .PHONY : P1892/fast
 
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
 ACWing/240.o: ACWing/240.cpp.o
 .PHONY : ACWing/240.o
 
@@ -906,6 +919,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+nowcoder/main.o: nowcoder/main.cpp.o
+.PHONY : nowcoder/main.o
+
+# target to build an object file
+nowcoder/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/nowcoder/main.cpp.o
+.PHONY : nowcoder/main.cpp.o
+
+nowcoder/main.i: nowcoder/main.cpp.i
+.PHONY : nowcoder/main.i
+
+# target to preprocess a source file
+nowcoder/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/nowcoder/main.cpp.i
+.PHONY : nowcoder/main.cpp.i
+
+nowcoder/main.s: nowcoder/main.cpp.s
+.PHONY : nowcoder/main.s
+
+# target to generate assembly for a file
+nowcoder/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/nowcoder/main.cpp.s
+.PHONY : nowcoder/main.cpp.s
+
 text.o: text.cpp.o
 .PHONY : text.o
 
@@ -957,6 +994,7 @@ help:
 	@echo "... P3397"
 	@echo "... P3879"
 	@echo "... P5266"
+	@echo "... main"
 	@echo "... main1"
 	@echo "... text"
 	@echo "... untitled"
@@ -1023,6 +1061,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... nowcoder/main.o"
+	@echo "... nowcoder/main.i"
+	@echo "... nowcoder/main.s"
 	@echo "... text.o"
 	@echo "... text.i"
 	@echo "... text.s"

@@ -85,6 +85,7 @@ all: CMakeFiles/P5266.dir/all
 all: CMakeFiles/P2814.dir/all
 all: CMakeFiles/P3879.dir/all
 all: CMakeFiles/P1892.dir/all
+all: CMakeFiles/main.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -114,6 +115,7 @@ clean: CMakeFiles/P5266.dir/clean
 clean: CMakeFiles/P2814.dir/clean
 clean: CMakeFiles/P3879.dir/clean
 clean: CMakeFiles/P1892.dir/clean
+clean: CMakeFiles/main.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -123,7 +125,7 @@ clean: CMakeFiles/P1892.dir/clean
 CMakeFiles/untitled.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target untitled"
 .PHONY : CMakeFiles/untitled.dir/all
 
 # Build rule for subdir invocation for target.
@@ -149,7 +151,7 @@ CMakeFiles/untitled.dir/clean:
 CMakeFiles/text.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text.dir/build.make CMakeFiles/text.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text.dir/build.make CMakeFiles/text.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target text"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target text"
 .PHONY : CMakeFiles/text.dir/all
 
 # Build rule for subdir invocation for target.
@@ -175,7 +177,7 @@ CMakeFiles/text.dir/clean:
 CMakeFiles/main1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target main1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target main1"
 .PHONY : CMakeFiles/main1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -687,6 +689,32 @@ P1892: CMakeFiles/P1892.dir/rule
 CMakeFiles/P1892.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1892.dir/build.make CMakeFiles/P1892.dir/clean
 .PHONY : CMakeFiles/P1892.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main.dir
+
+# All Build rule for target.
+CMakeFiles/main.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/main.dir/rule
+
+# Convenience name for target.
+main: CMakeFiles/main.dir/rule
+.PHONY : main
+
+# clean rule for target.
+CMakeFiles/main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -27,7 +27,8 @@ int main(){
         cin >> ch >> l >> r;
         if(ch == 'F'){
             merge(l,r);
-        }else{ // 并查集 与 反集 这样就符合了题目敌人的敌人是朋友的规则
+        }else{
+            // 并查集 与 反集 这样就符合了题目敌人的敌人是朋友的规则
             tree[find(l + n)] = find(r);
             tree[find(r + n)] = find(l);
             // 并查集 与 反集 这样就符合了题目敌人的敌人是朋友的规则

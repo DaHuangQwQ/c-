@@ -20,5 +20,6 @@
 /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P2814.dir
 /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P3879.dir
 /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P1892.dir
+/Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/main.dir
 /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/dahuang/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
