@@ -389,6 +389,19 @@ P3879/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3879.dir/build.make CMakeFiles/P3879.dir/build
 .PHONY : P3879/fast
 
+#=============================================================================
+# Target rules for targets named P1892
+
+# Build rule for target.
+P1892: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P1892
+.PHONY : P1892
+
+# fast build rule for target.
+P1892/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1892.dir/build.make CMakeFiles/P1892.dir/build
+.PHONY : P1892/fast
+
 ACWing/240.o: ACWing/240.cpp.o
 .PHONY : ACWing/240.o
 
@@ -653,6 +666,30 @@ luo_gu/P1825.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1825.dir/build.make CMakeFiles/P1825.dir/luo_gu/P1825.cpp.s
 .PHONY : luo_gu/P1825.cpp.s
 
+luo_gu/P1892.o: luo_gu/P1892.cpp.o
+.PHONY : luo_gu/P1892.o
+
+# target to build an object file
+luo_gu/P1892.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1892.dir/build.make CMakeFiles/P1892.dir/luo_gu/P1892.cpp.o
+.PHONY : luo_gu/P1892.cpp.o
+
+luo_gu/P1892.i: luo_gu/P1892.cpp.i
+.PHONY : luo_gu/P1892.i
+
+# target to preprocess a source file
+luo_gu/P1892.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1892.dir/build.make CMakeFiles/P1892.dir/luo_gu/P1892.cpp.i
+.PHONY : luo_gu/P1892.cpp.i
+
+luo_gu/P1892.s: luo_gu/P1892.cpp.s
+.PHONY : luo_gu/P1892.s
+
+# target to generate assembly for a file
+luo_gu/P1892.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P1892.dir/build.make CMakeFiles/P1892.dir/luo_gu/P1892.cpp.s
+.PHONY : luo_gu/P1892.cpp.s
+
 luo_gu/P1996.o: luo_gu/P1996.cpp.o
 .PHONY : luo_gu/P1996.o
 
@@ -912,6 +949,7 @@ help:
 	@echo "... P1536"
 	@echo "... P1551"
 	@echo "... P1825"
+	@echo "... P1892"
 	@echo "... P1996"
 	@echo "... P2814"
 	@echo "... P2895"
@@ -955,6 +993,9 @@ help:
 	@echo "... luo_gu/P1825.o"
 	@echo "... luo_gu/P1825.i"
 	@echo "... luo_gu/P1825.s"
+	@echo "... luo_gu/P1892.o"
+	@echo "... luo_gu/P1892.i"
+	@echo "... luo_gu/P1892.s"
 	@echo "... luo_gu/P1996.o"
 	@echo "... luo_gu/P1996.i"
 	@echo "... luo_gu/P1996.s"
